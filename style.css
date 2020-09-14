@@ -1,0 +1,51 @@
+/*
+* content
+*/
+.media {
+	margin-bottom: 15px;
+  }
+
+  .thumbnail{
+    border: 1px solid #999966 ;
+    margin-bottom: 5px;
+    background-color: lightcyan;
+  }
+  
+  .media__img {
+	float: left;
+	margin-right: 0px;
+  }
+  .media__text {
+  overflow: hidden;
+  max-width: inherit;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  }
+  
+  h5{
+    font-family: 'Pacifico', cursive;
+  }
+  
+  @media screen and (max-width: 748px){
+  .clearfix {
+	margin-left:0;
+  margin-right:0;
+  }
+  .thumbnail>img {
+	margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 0px;
+  }
+  }
+  /*truncate*/
+  .module {
+	overflow: hidden;
+  }
+  
+  .line-clamp {
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;  
+  }
+  
+  
